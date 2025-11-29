@@ -20,11 +20,12 @@ const CONFIG = {
     EMAIL_ENDPOINT: 'https://formsubmit.co/tu_email@ejemplo.com',
     
     // Método de almacenamiento: 'jsonbin', 'discord', 'email', 'local'
-    STORAGE_METHOD: 'local' // Cambia a 'jsonbin', 'discord' o 'email' cuando configures
+    STORAGE_METHOD: 'jsonbin' // Cambia a 'jsonbin', 'discord' o 'email' cuando configures
 };
 
 // No edites esto
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = CONFIG;
 }
+
 
